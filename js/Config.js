@@ -1,6 +1,6 @@
 window.CONFIG = {
-  crawl: `Thanks to all the contributors of this project. While it's not completely finished, the community effort has made this possible. Stars, contributions, and feedback are welcome and appreciated. Thanks for trying out this emulator.`,
-  greeting: 'This is your weather',
+  crawl: ``,
+  greeting: 'This is your weather.',
   language: 'en-US', // Supported in TWC API
   countryCode: 'US', // Supported in TWC API (for postal key)
   units: 'e', // Supported in TWC API (e = English (imperial), m = Metric, h = Hybrid (UK)),
@@ -8,9 +8,9 @@ window.CONFIG = {
   loop: false,
   locationMode: "POSTAL",
   secrets: {
-    // Possibly deprecated key: See issue #29
-    // twcAPIKey: 'd522aa97197fd864d36b418f39ebb323'
-    twcAPIKey: 'e1f10a1e78da46f5b10a1e78da96f525'
+    // If not working use this key:
+    // twcAPIKey: 'e1f10a1e78da46f5b10a1e78da96f525'
+    twcAPIKey: '8de2d8b3a93542c9a2d8b3a935a2c909'
   },
 
   // Config Functions (index.html settings manager)
